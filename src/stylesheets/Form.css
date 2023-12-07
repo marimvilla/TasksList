@@ -1,0 +1,30 @@
+.task-form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-input{
+  width: 360px;
+  height: 60px;
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 6px 0px 0px 6px;
+  border: 3px solid rgb(102, 36, 112);
+  outline: none;
+}
+
+.task-button{
+  padding: 16px;
+  height: 60px;
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(102, 36, 112);
+}
